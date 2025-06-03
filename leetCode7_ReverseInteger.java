@@ -12,18 +12,3 @@ class Solution {
         return rev;
     }
 }
-public class leetCode7_ReverseInteger {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        // 🔽 Example input: 123 or -456 or 1534236469 (overflow test)
-        System.out.print("Enter an integer to reverse: ");
-        int x = sc.nextInt();
-
-        Solution sol = new Solution();
-        int reversed = sol.reverse(x);
-
-        System.out.println("Reversed integer: " + reversed);
-    }
-}
-
